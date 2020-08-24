@@ -12,3 +12,13 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
   - `em` - emacs example: `alias em='emacs'`
   - `open` - to open file manager: `alias open='nautilus ./'`
 - export: eg. meme - `export PATH=/home/jh2259/meme/bin:/home/jh2259/meme/libexec/meme-5.1.1:$PATH`
+## Unknown commands
+- view a large file (`q` to quit)
+  - `less filename`
+  - `cat filename | less`
+  
+## TODO: file permision
+
+
+## Reference
+[Linux命令行中的~、/、!!含义以及最常用的命令行总结](https://www.jianshu.com/p/d9bbcb45ac95)
