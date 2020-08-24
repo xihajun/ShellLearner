@@ -23,5 +23,5 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
 
 
 ## Reference
-[Linux命令行中的~、/、!!含义以及最常用的命令行总结](https://www.jianshu.com/p/d9bbcb45ac95)
-[Working with CSVs on the Command Line](https://bconnelly.net/posts/working_with_csvs_on_the_command_line/)
+- [Linux命令行中的~、/、!!含义以及最常用的命令行总结](https://www.jianshu.com/p/d9bbcb45ac95)
+- [Working with CSVs on the Command Line](https://bconnelly.net/posts/working_with_csvs_on_the_command_line/)
