@@ -16,9 +16,12 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
 - view a large file (`q` to quit)
   - `less filename`
   - `cat filename | less`
-  
+
+## TODO: tutorial to view (by 25th Aug)
+[8 Useful Shell Commands For Data Science](https://www.datacamp.com/community/tutorials/shell-commands-data-scientist)
 ## TODO: file permision
 
 
 ## Reference
 [Linux命令行中的~、/、!!含义以及最常用的命令行总结](https://www.jianshu.com/p/d9bbcb45ac95)
+[Working with CSVs on the Command Line](https://bconnelly.net/posts/working_with_csvs_on_the_command_line/)
