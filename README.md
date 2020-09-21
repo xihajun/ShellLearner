@@ -12,6 +12,12 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
   - `em` - emacs example: `alias em='emacs'`
   - `open` - to open file manager: `alias open='nautilus ./'`
 - export: eg. meme - `export PATH=/home/jh2259/meme/bin:/home/jh2259/meme/libexec/meme-5.1.1:$PATH`
+
+## Git version control
+- Youtube video: https://www.youtube.com/watch?v=2sjqTHE0zok
+  - there is an interesting thing in this video: at 49:09, the cloth's color changed in my mind, but my mom said it doesn't
+  - 老高的视频发告诉我们差不多的内容，有的人眼睛可以自动调节色差
+  
 ## Unknown commands
 - view a large file (`q` to quit)
   - `less filename`
