@@ -12,6 +12,9 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
   - `em` - emacs example: `alias em='emacs'`
   - `open` - to open file manager: `alias open='nautilus ./'`
 - export: eg. meme - `export PATH=/home/jh2259/meme/bin:/home/jh2259/meme/libexec/meme-5.1.1:$PATH`
+<details>
+  another option for HPC: http://protocols.faircloth-lab.org/en/latest/protocols-computer/snippets/make-hpc-bash-better.html
+</details>
 
 ## Git version control
 - Youtube video: https://www.youtube.com/watch?v=2sjqTHE0zok
