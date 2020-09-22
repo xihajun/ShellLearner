@@ -14,6 +14,8 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
 - export: eg. meme - `export PATH=/home/jh2259/meme/bin:/home/jh2259/meme/libexec/meme-5.1.1:$PATH`
 <details>
   another option for HPC: http://protocols.faircloth-lab.org/en/latest/protocols-computer/snippets/make-hpc-bash-better.html
+  
+  solve inputrc issue: https://unix.stackexchange.com/questions/501524/inputrc-not-working-in-ubuntu-18-as-it-used-to-in-16-and-below
 </details>
 
 ## Git version control
