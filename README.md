@@ -18,11 +18,16 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
   solve inputrc issue: https://unix.stackexchange.com/questions/501524/inputrc-not-working-in-ubuntu-18-as-it-used-to-in-16-and-below
 </details>
 
-## Git version control
+## Git
+### Git version control
 - Youtube video: https://www.youtube.com/watch?v=2sjqTHE0zok
   - there is an interesting thing in this video: at 49:09, the cloth's color changed in my mind, but my mom said it doesn't
   - 老高的视频发告诉我们差不多的内容，有的人眼睛可以自动调节色差
-  
+### git commit
+- (Commit message 和 Change log 编写指南)[http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html]
+  - install `commitizen` using `npm install -g commitizen`
+  - init format `commitizen init cz-conventional-changelog --save --save-exact`
+  - use `git cz` to commit next time
 ## Unknown commands
 - view a large file (`q` to quit)
   - `less filename`
