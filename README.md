@@ -10,6 +10,16 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
 - random theme: `ZSH_THEME="random"`
 - [各种插件参考知乎](https://www.zhihu.com/question/21418449)
   - 自动补全这个功能需要注意，如果要取消补全C-k即可（emacs）
+  - C-q 返回上一次的目录 加入(.zshrc）文件里
+    ```
+    cdlast() {
+      cd -
+      ls -lrth --color=auto | tail
+      zle reset-prompt
+    }
+    zle -N cdlast
+    bindkey '^Q' cdlast
+    ```
 
 - alias: 
   - `em` - emacs example: `alias em='emacs'`
