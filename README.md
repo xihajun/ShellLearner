@@ -8,6 +8,9 @@ My story tells that command line could help you a lot when you want to work effe
 I'd like to use zsh as the terminal tool as it looks pretter. I would like to set up a **random theme** when I open zsh every time which makes changes to my coding life I think. Also, I would highly recommand the **alias setting** which give you a short key to call a thing. **`export PATH=$PATH:\path`** could help you to load the packages or tools you've installed.
 By adding those lines inside `~/.zshrc`, you can unlock those useful and interesting functions.
 - random theme: `ZSH_THEME="random"`
+- [各种插件参考知乎](https://www.zhihu.com/question/21418449)
+  - 自动补全这个功能需要注意，如果要取消补全C-k即可（emacs）
+
 - alias: 
   - `em` - emacs example: `alias em='emacs'`
   - `open` - to open file manager: `alias open='nautilus ./'`
