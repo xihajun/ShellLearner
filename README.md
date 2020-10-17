@@ -47,6 +47,7 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
   - `cat filename | less`
 - filter 20-40 lines for file*
   - `awk 'FNR>=20 && FNR<=40' file*` 
+    - [YouTube](https://www.youtube.com/watch?v=_q6Uj4X_knc&ab_channel=MelvynDrag)
 
 ## TODO: tutorial to view (by 25th Aug)
 [8 Useful Shell Commands For Data Science](https://www.datacamp.com/community/tutorials/shell-commands-data-scientist)
