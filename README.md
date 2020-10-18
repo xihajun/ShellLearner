@@ -31,6 +31,12 @@ By adding those lines inside `~/.zshrc`, you can unlock those useful and interes
   solve inputrc issue: https://unix.stackexchange.com/questions/501524/inputrc-not-working-in-ubuntu-18-as-it-used-to-in-16-and-below
 </details>
 
+## ssh
+Reset ssh info for yourip
+```
+ssh-keygen -R yourip
+```
+
 ## Git
 ### Git version control
 - Youtube video: https://www.youtube.com/watch?v=2sjqTHE0zok
