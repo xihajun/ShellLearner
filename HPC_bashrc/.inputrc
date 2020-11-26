@@ -1,0 +1,95 @@
+# emacs模式的一些默认/修改
+$if mode=emacs
+
+# 允许使用Home/End键
+"\e[1~": beginning-of-line
+"\e[4~": end-of-line
+
+# 允许使用Delete/Insert 键
+"\e[3~": delete-char
+"\e[2~": quoted-insert
+
+# “page up”和“page down”的映射将逐步进入历史的开始/结束
+ "\e[5~": beginning-of-history
+ "\e[6~": end-of-history
+
+# “page up”和“page down”搜索历史的替代映射
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+#ctrl -左箭头和ctrl -右箭头用于单词移动的映射
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\e[5C": forward-word
+"\e[5D": backward-word
+"\e\e[C": forward-word
+"\e\e[D": backward-word
+
+$if term=rxvt
+"\e[7~": beginning-of-line
+"\e[8~": end-of-line
+"\eOc": forward-word
+"\eOd": backward-word
+$endif
+
+# 对于非RH/Debian xterm，对RH/Debian xterm没有害处
+# "\eOH": beginning-of-line
+# "\eOF": end-of-line
+
+# 支持freebsd控制台
+# "\e[H": beginning-of-line
+# "\e[F": end-of-line
+
+$endif
+
+ 
+
+set horizontal-scroll-mode Off         # 确认我们不会在同一行中输出所有的东西。
+
+set meta-flag On              # 开启8比特输入
+
+set input-meta On
+
+set convert-meta Off              # 禁止对第8个比特过滤
+
+set output-meta On                # 在显示时保存第8个比特
+
+set bell-style none                 # 关闭可视和声音提示
+
+ 
+
+# 函数第一部分中包括的换码符序列的值
+
+"\eOd": backward-word
+
+"\eOc": forward-word
+
+ 
+
+# 在控制台使用
+
+"\e[1~": beginning-of-line
+
+"\e[4~": end-of-line
+
+"\e[5~": beginning-of-history
+
+"\e[6~": end-of-history
+
+"\e[3~": delete-char
+
+"\e[2~": quoted-insert
+
+ 
+
+# xterm使用
+
+"\eOH": beginning-of-line
+
+"\eOF": end-of-line
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+set show-all-if-ambiguous on
+set completion-ignore-case on
