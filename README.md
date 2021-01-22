@@ -1,8 +1,8 @@
 # ShellLearner
-Another useful thing to learn. When I first started, Shamith asked me to count how many files. I didn't know why to do that in command line. It turns out to be `ls -l folder | wc -l`. So the `ls -l` shows all the files and `wc -l` to count how many lines they have.
+Another useful thing to learn. When I first started, Shamith asked me to count how many files. I didn't know why to do that in command line. It turns out to be `ls -l folder | wc -l`. So the `ls -l` shows all the files and `wc -l` to count how many lines they have. My story tells that command line could help you a lot when you want to work effectively. When you know how to work with Emacs and command line well, I believe you will be a good coder at least.
+
+
 **TODO: Eshell**
-## Important
-My story tells that command line could help you a lot when you want to work effectively. When you know how to work with Emacs and command line well, I believe you will be a good coder at least.
 
 ## setup
 To setup you might worry about the terminal interface by using zsh and iterm2. Sometimes, you will have to refresh your ssh cache to connect to the remote server as something have changed already. Also, git tips would be useful if you are enjoying using terminal to do project management.
